@@ -42,3 +42,8 @@ ul li:first-child{
 p:first-child{
   color: yellow;
 }
+
+/*Ultimo figlio*/
+ul li:last-child{
+  background: purple;
+}
