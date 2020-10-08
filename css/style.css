@@ -2,3 +2,20 @@
 div h2{
   background: green;
 }
+
+/*Metto color white ai discendenti di div che sono
+  h2 e di classe .titolo*/
+div h2.titolo{
+  color: white;
+}
+
+/*la , permette di applicare regole css ad un selettore
+  e contemporaneamente anche ad un altro*/
+#paragrafo2, #listato2{
+  background: red;
+}
+
+/*Adiacenza: seleziono i p subito adiacenti agli h2*/
+h2 + p{
+  background: orange;
+}
