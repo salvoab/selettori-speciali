@@ -31,3 +31,8 @@ h2 ~ p{
 .container > p{
   color: darkgrey;
 }
+
+/*Primo figlio*/
+ul li:first-child{
+  background: blue;
+}
