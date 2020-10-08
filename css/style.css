@@ -36,3 +36,9 @@ h2 ~ p{
 ul li:first-child{
   background: blue;
 }
+
+/*Figlio unico
+  seleziona il p che è figlio unico*/
+p:first-child{
+  color: yellow;
+}
