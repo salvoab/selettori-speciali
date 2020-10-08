@@ -53,3 +53,15 @@ ul li:last-child{
 ul li:nth-child(3n+4){
   margin-left: 60px;
 }
+
+/*nth-last-child()
+  considerando i discendenti di .container,
+  prendo l'h2 che si trova in terza posizione dal basso*/
+.container h2:nth-last-child(3){
+  margin-left: 80px;
+}
+
+/*first-of-type*/
+div h3:first-of-type{
+  color: blue;
+}
