@@ -60,7 +60,10 @@ ul li:nth-child(3n+4){
   margin-left: 80px;
 }
 
-/*first-of-type*/
+/*first-of-type seleziona il primo h3 in div
+  (a differenza di first-child h3 verrà selezionato
+  anche se non si trova come primo figlio, cioè anche se
+  non è al primo posto)*/
 div h3:first-of-type{
   color: blue;
 }
