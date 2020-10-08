@@ -1,0 +1,4 @@
+/*Descendant Selector*/
+div h2{
+  background: green;
+}
