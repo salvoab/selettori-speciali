@@ -37,8 +37,7 @@ ul li:first-child{
   background: blue;
 }
 
-/*Figlio unico
-  seleziona il p che è figlio unico*/
+/*Seleziona i p che sono primi figli*/
 p:first-child{
   color: yellow;
 }
@@ -69,4 +68,10 @@ div h3:first-of-type{
 /*Selezione elementi dispari*/
 ul li:nth-of-type(odd){
   color: cyan;
+}
+
+/*Seleziona h3 in div se e solo se
+  h3 è l'unico figlio di tipo h3 nel div*/
+div h3:only-of-type{
+  background: cyan;
 }
