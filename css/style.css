@@ -19,3 +19,10 @@ div h2.titolo{
 h2 + p{
   background: orange;
 }
+
+/*General Sibling Selector:
+  seleziona tutti gli elementi p adiacenti a h2
+  cioè a partire da un h2, prendi tutti i p adiacenti*/
+h2 ~ p{
+  margin-left: 100px;
+}
