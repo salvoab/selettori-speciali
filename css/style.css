@@ -47,3 +47,9 @@ p:first-child{
 ul li:last-child{
   background: purple;
 }
+
+/*Selettore n-esimo elemento variante an+b
+  a partire dal 4° compreso, prendi un elemento ogni 3*/
+ul li:nth-child(3n+4){
+  margin-left: 60px;
+}
