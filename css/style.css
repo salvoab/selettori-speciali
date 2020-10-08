@@ -65,3 +65,8 @@ ul li:nth-child(3n+4){
 div h3:first-of-type{
   color: blue;
 }
+
+/*Selezione elementi dispari*/
+ul li:nth-of-type(odd){
+  color: cyan;
+}
